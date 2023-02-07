@@ -1,0 +1,28 @@
+.categories {
+    display: flex;
+    overflow-x: scroll;
+    padding: .5rem 0;
+
+}
+
+.categories::-webkit-scrollbar {
+    height: 10px;
+}
+
+.categories > span {
+    margin-right: 1rem; 
+    padding: 0.5rem;
+    /* white-space: nowrap; */
+    border: .2px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.categories > span:hover {
+    background-color: rgb(135, 117, 117);
+}
+
+.categories > .active_topic {
+    background-color: rgb(197, 181, 181);
+    color: rgb(12, 11, 11);
+}

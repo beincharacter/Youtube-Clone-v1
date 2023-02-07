@@ -1,0 +1,33 @@
+.login_div {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container > img {
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.login_container > button {
+    padding: 0.5rem;
+    border-radius: 100px;
+    font-family: cursive;
+    font-weight: 300;
+    background-color: transparent;
+    border: .5px solid whitesmoke;
+    color: white;
+}
+
+.login_container > button:hover {
+    background-color: rgb(199, 185, 185);
+    color: black;
+}
